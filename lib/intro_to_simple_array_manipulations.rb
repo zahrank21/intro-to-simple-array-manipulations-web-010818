@@ -36,11 +36,15 @@ def using_uniq(arr)
 end
 
 def using_flatten(arr)
-  arr.flatten 
+  arr.flatten
 end
 
 def using_delete(arr, str)
   arr.delete(str)
+end
+
+def using_delete_at(arr, int)
+ arr[int].delete
 end
 # def using_shift(arr)
 #   arr.shift
