@@ -46,16 +46,3 @@ end
 def using_delete_at(arr, int)
  arr[int].delete
 end
-# def using_shift(arr)
-#   arr.shift
-# end
-#
-# def using_concat(arr,str)
-#
-# end
-#
-# def using_uniq(arr)
-#
-# end
-#
-# def using_insert(arr)
