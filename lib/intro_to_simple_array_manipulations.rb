@@ -31,7 +31,9 @@ def using_insert(arr, n)
   arr.insert(4, n)
 end
 
-
+def using_uniq(arr)
+  arr.uniq
+end
 # def using_shift(arr)
 #   arr.shift
 # end
