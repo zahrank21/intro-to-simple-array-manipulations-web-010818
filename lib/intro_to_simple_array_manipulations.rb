@@ -24,6 +24,7 @@ end
 
 def using_concat(arr1, arr2)
   arr2.each {|el| arr1 << el}
+  arr1
 end
 
 def using_insert
